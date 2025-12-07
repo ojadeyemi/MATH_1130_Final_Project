@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Generated data (recreated by running notebooks)
+data/cleaned/
+data/merged/
+
+# IDE
+.vscode/
+.idea/
+*.swp
